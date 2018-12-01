@@ -90,7 +90,8 @@
                 <h3>{{ day.home_team}} ({{day.home_record}}) vs {{ day.away_team}} ({{day.away_record}})</h3>
                   <p>@ {{day.arena}}</p><br>
                   <form action="/today_results" method="POST" role="form">
-                    <select name="hometeam"> <option selected>{{ day.home_team}}</option></select>       
+                    <select name="hometeam"> <option selected>{{ day.home_team}}</option></select>
+                    <p> - </p>    
                     <select name="awayteam"> <option selected>{{ day.away_team}}</option></select>
                       <div class=row>
                         <input type="submit" value="Which team is going to win?" class="btn btn-primary" role="button"></a>
