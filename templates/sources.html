@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basketball Analysis - MAAKVL</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        </button>
+        <a href="/"><img src="../static/images/NBA.png" title="home"></a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/about_the_project">ABOUT THE PROJECT</a></li>
+        <li><a href="/">PICK YOUR TEAMS</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SEASON PREDICTIONS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/scrape_today">CURRENT GAMES</a></li>
+                <li><a href="/scrape_tomorrow">UPCOMING GAMES</a></li>
+            </ul></li>   
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EXPLORING THE DATA <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/gathering_the_data">GATHERING THE DATA</a></li>
+                <li><a href="/do_the_stats_matter">DO THE STATS MATTER</a></li>
+                <li><a href="/teaching_the_machine">TEACHING THE MACHINE</a></li>
+                <li><a href="/conclusion">CONCLUSION</a></li>
+                <li><a href="/sources">SOURCES</a></li>
+            </ul></li>   
+        <li><a href="/contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="container-fluid">
+      <div class="bgimg">
+        <div class="centered">
+          <h1>Sources</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <ul>
+            <li>Basketball Statistics and History. Retrieved from https://www.basketball-reference.com/</li>
+            <li>ElectroLion Mix. (2017, Oct. 13). 2018 NBA Season Promo - "HUMBLE." [Video File]. Retrieved from https://www.youtube.com/watch?v=PwNEpIeMOV4</li>
+            <li>Jae, B. Basketball Reference Web Scraper. Retrieved from https://github.com/jaebradley/basketball_reference_web_scraper</li>
+            <li>The Official Site of the NBA. Retrieved from https://www.nba.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright text-center">
+            <p>&copy; MAAKVL 2018, a group of data analysts who are 
+              motivated by data analysis and machine learning. 
+              All rights reserved. <br>
+            * Disclaimer: Predictions are for reference only. There are many 
+            other factors that go into final outcome of a game. <br> 
+            Research the games carefully if you plan to use our predictions for other purposes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JS References -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
+
+</body>
+
+</html>

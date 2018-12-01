@@ -1,0 +1,189 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+
+/** BACKGROUND IMG **/
+
+.bgimg {
+  position: relative;
+  height: 350px;
+  background: black;
+  background-image: url("../images/basketball.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+	left: 50%;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+	left: 50%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+
+}
+
+/** CORRELATION IMAGE **/
+
+.corrimg {
+  position: relative;
+  width: 175%;
+}
+
+/** TABLE **/
+
+.table {
+  background: white;
+  font-size: 11px;
+}
+
+.home {
+  background-color: rgb(163, 209, 251)
+}
+
+.away {
+  background-color: rgb(233, 105, 105)
+}
+
+.homeaway {
+  background-color: rgb(206, 98, 206)
+}
+
+/** LIGHTBOX MARKUP **/
+.thumbnail {
+  max-height: 300px;
+  margin: auto;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+  z-index: 999;
+  width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-height: 100%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+/* === Games Section === */
+
+.col-md-7 {
+  text-align: center;
+}
+
+.pre_game {
+  text-align: center;
+  overflow: hidden;
+  display:inline-block
+}
+
+.leftimage {
+  text-align: left;
+  overflow: hidden;
+  display:inline-block
+}
+
+.rightimage {
+  text-align: right;
+  overflow: hidden;
+  display:inline-block
+}
+
+games-section {
+  background: black;
+  padding: 36px 0;
+}
+
+select {
+ -webkit-appearance: none;
+}
+
+/* === Footer Wrapper === */
+.footer-wrapper {
+  background: url("../images/NBA_cover.jpg") black no-repeat left;
+  padding: 36px 0;
+  color: #fff;
+
+}
+.copyright p {
+  margin: 0;
+}
+
+/* === Video BG === */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+/** INDEX LABEL **/
+label {
+  color: #fff;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.jumbotron { 
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+
+ /*=== Transparent BG ===*/
+
+.jumbotron { 
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+#home { 
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
