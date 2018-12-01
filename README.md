@@ -1,5 +1,9 @@
 # NBA_Predictions
 
+## Deployable App
+
+https://nba-game-forecaster.herokuapp.com/
+
 Thank you for visiting Team MAAKVL's third and final project from the Data Analytics Bootcamp @ UC Berkeley Extension!
 
 The purpose of this project was to implement machine learning on a topic of interest that would be worth solving, analyzing or visualizing. Since the 2018-2019 NBA basketball season just started, we wanted to use this project as an opportunity to explore some of the different factors that contribute to the outcome of games, such as assists, rebounds and turnovers. Based on these game stats, who will come out as the winner or loser? Using these factors as features for our machine learning model, we will showcase two different outcome predictions:
