@@ -15,7 +15,9 @@ from keras.models import load_model
 from keras.utils import to_categorical
 import os, csv
 
-client = MongoClient('mongodb://localhost:27017/nba_db')
+# client = MongoClient('mongodb://localhost:27017/nba_db')
+client = MongoClient('mongodb://kenneth:nba2018@ds123399.mlab.com:23399/nba_db')
+
 
 app = Flask(__name__)
 app.debug = True
